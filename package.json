@@ -1,0 +1,21 @@
+{
+  "name": "customer-uploads",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "demo": "concurrently --kill-others-on-fail -n mock,web -c magenta,cyan \"tsx demo/mock-server.ts\" \"pnpm --filter @workspace/upload-app run dev\""
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.3.3",
+    "concurrently": "^9.1.2",
+    "cors": "^2",
+    "express": "^5",
+    "multer": "^2.1.1",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.2"
+  }
+}

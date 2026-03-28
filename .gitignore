@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+*.local
+uploads/
+pnpm-lock.yaml
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
