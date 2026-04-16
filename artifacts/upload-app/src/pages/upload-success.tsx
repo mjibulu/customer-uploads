@@ -59,7 +59,7 @@ export default function UploadSuccessPage() {
             </div>
           </div>
 
-          {/* Upload ID card — prominently displayed */}
+          {/* Upload ID card - prominently displayed */}
           <Card>
             <CardContent className="pt-6 pb-6 text-center space-y-1">
               <p className="section-title">Your Upload ID</p>
