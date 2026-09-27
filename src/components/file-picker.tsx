@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { CloudUpload, Sparkles, X } from "lucide-react";
+import { CloudUpload, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FileIcon } from "@/components/file-icon";
 import { ACCEPT_ATTRIBUTE, MAX_FILES, formatFileSize, plural, validateSelection } from "@/lib/files";
@@ -104,7 +104,6 @@ export function FilePicker({ files, onChange, onProblems, disabled, sampleIds, c
 
       {sampleIds && files.length === 0 && (
         <Button type="button" variant="outline" size="sm" className="w-full" onClick={addSamples} disabled={disabled || loadingSamples}>
-          <Sparkles aria-hidden />
           {loadingSamples ? "Preparing samples…" : "Use sample files"}
         </Button>
       )}

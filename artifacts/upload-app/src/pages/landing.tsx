@@ -7,7 +7,6 @@ import {
   LockKeyhole,
   MessageSquareMore,
   ShieldCheck,
-  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -58,12 +57,9 @@ export default function LandingPage() {
       <header className="sticky top-0 z-20 border-b border-black/5 bg-[#fbfaf5]/85 backdrop-blur">
         <div className="mx-auto flex min-h-18 max-w-7xl flex-wrap items-center justify-between gap-3 px-6 py-4">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/10 bg-slate-950 text-white shadow-lg shadow-purple-200/40">
-              <Sparkles className="h-5 w-5" />
-            </div>
             <div>
               <p className="font-serif text-xl tracking-tight">Attach</p>
-              <p className="text-xs uppercase tracking-[0.28em] text-slate-500">by Techshub</p>
+              <p className="text-xs uppercase tracking-[0.28em] text-slate-500">by Mujeeb</p>
             </div>
           </Link>
 

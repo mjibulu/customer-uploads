@@ -196,7 +196,7 @@ export default function LandingPage() {
 
       <footer className="border-t">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-6 text-sm text-muted-foreground sm:px-6">
-          <span>Attach by Techshub</span>
+          <span>Attach by Mujeeb</span>
           <a href={REPO_HREF} className="inline-flex items-center gap-1.5 hover:text-foreground">
             <Github className="h-4 w-4" aria-hidden />
             Demo source
